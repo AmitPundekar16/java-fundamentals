@@ -12,7 +12,6 @@ public class SortList
             l1.add(i);
         }
 
-
         Collections.sort(l1);
         System.out.println(l1);
     }
