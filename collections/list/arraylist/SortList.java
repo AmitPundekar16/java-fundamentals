@@ -5,7 +5,7 @@ public class SortList
 {
     public static void main(String []ar)
     {
-        int arr[]={5,4,2,1,3};
+        int arr[]={15,4,2,1,3};
         List<Integer> l1=new ArrayList<>();
         for(int i:arr)
         {
