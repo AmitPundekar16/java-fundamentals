@@ -23,12 +23,18 @@ public class TwoDArrayList
         l1.get(2).add(8);
         l1.get(2).add(9);
 
+        int sum=0;
 
         System.out.println(l1);
 
         for(int i=0;i<l1.size();i++){
-            System.out.print(" "+l1.get(i).get(0));
+            for(int j=0;j<l1.get(i).size();j++)
+            {
+              sum+=l1.get(i).get(j);
+            }
+        
         }
+        System.out.println(sum);
        
     }
 }
